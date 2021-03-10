@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteOpaque">#F5F5F5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackWithTransparency">#B2000000</color>
+    <color name="colorBlackWithTransparency40">#66000000</color>
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="colorGrayLighter">#EEEEEE</color>
+    <color name="colorGrayLight">#C2C2C2</color>
+    <color name="colorGray">#757575</color>
+    <color name="colorGrayDark">#424242</color>
+
+    <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#689F38</color>
+    <color name="colorAccent">#00BCD4</color>
+
+    <color name="textPrimary">#424242</color>
+    <color name="textSecondary">#757575</color>
+
+    <color name="colorRegionAfrica">#212121</color>
+    <color name="colorRegionAmericas">#F44336</color>
+    <color name="colorRegionAsia">#FFEB3B</color>
+    <color name="colorRegionEurope">#303F9F</color>
+    <color name="colorRegionOceania">#388E3C</color>96
+
+
+
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Countries in asia</string>
+    <string name="country_detail_population">country_detail_population</string>
+    <string name="country_detail_native_name">country_detail_native_name</string>
+    <string name="country_detail_demonym">country_detail_demonym</string>
+    <string name="country_detail_calling_code">country_detail_calling_code</string>
+    <string name="country_detail_currencies">country_detail_currenciesu</string>
+    <string name="country_detail_languages">country_detail_languages</string>
+    <string name="country_detail_timezones">country_detail_timezones</string>
+    <string name="main_search_no_results">main_search_no_results</string>
+    <string name="generic_msg_error">generic_msg_error</string>
+    <string name="hint_try_again">hint_try_again</string>
+    <string name="country_detail_capital">country_detail_capital</string>
+    <string name="ok_button_label">Ok</string>
+
+
+</resources>

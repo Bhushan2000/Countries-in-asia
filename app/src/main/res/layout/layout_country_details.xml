@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_content_details"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:visibility="visible"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:id="@+id/layout_country_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small">
+
+
+        <View
+            android:id="@+id/divider_country_info"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_size"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:background="@color/colorGrayLight" />
+
+        <LinearLayout
+            android:id="@+id/layout_country_capital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_country_info"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:layout_weight="1"
+                android:gravity="end"
+
+                android:text="Name"
+                android:textColor="@color/textPrimary"
+                android:textSize="@dimen/text_size_regular"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_country_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="start"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/text_size_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_country_population"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_country_capital"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="Capital"
+                android:textColor="@color/textPrimary"
+                android:textSize="@dimen/text_size_regular"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_country_capital"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="start"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/text_size_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_country_native_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_country_population"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="Region"
+                android:textColor="@color/textPrimary"
+                android:textSize="@dimen/text_size_regular"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_country_region"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="start"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/text_size_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_country_demonym"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_country_native_name"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="SubRegion"
+                android:textColor="@color/textPrimary"
+                android:textSize="@dimen/text_size_regular"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_country_subRegion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="start"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/text_size_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_country_calling_codes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_country_demonym"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="Population"
+                android:textColor="@color/textPrimary"
+                android:textSize="@dimen/text_size_regular"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_country_population"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="start"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/text_size_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_country_currencies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_country_calling_codes"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:layout_weight="1"
+                android:gravity="end"
+             android:text="Borders"
+                android:textColor="@color/textPrimary"
+                android:textSize="@dimen/text_size_regular"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_country_borders"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="start"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/text_size_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_country_languages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_country_currencies"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:layout_weight="1"
+                android:gravity="end"
+               android:text="Language"
+                android:textColor="@color/textPrimary"
+                android:textSize="@dimen/text_size_regular"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_country_languages"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="start"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/text_size_regular" />
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
